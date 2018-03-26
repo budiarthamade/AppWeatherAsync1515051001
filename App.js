@@ -22,7 +22,14 @@ export default class App extends React.Component {
         forecast: {
           main: '-',
           description: '-',
-          temp: 0
+          temp: 0,
+          sunrise:'-',
+          sunset:'-',
+          country:'-',
+          speed:'-',
+          sea_level:'-',
+          pressure:'-',
+          humidity:'-'
         }
       };
     }
